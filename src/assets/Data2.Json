@@ -1,0 +1,14 @@
+{
+    "StatusCode":200,
+    "cookies":"xxxfsfegdgd",
+    "data":[{
+        "ID": "005",
+       "Name": "Vijay"
+       
+    },
+    {
+        "ID": "006",
+        "Name": "Priya"
+       
+    }]
+}

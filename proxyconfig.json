@@ -1,0 +1,9 @@
+{
+    "/api":
+    {
+    "target":"http://locolhost:1234",
+    "secure":false,
+    "changeOrigin":true
+    }
+    }
+    

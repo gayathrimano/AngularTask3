@@ -1,0 +1,22 @@
+<p>admin works!</p>
+<div style="text-align:left;width:500px;">
+    <h1>
+        {{ title }}!
+    </h1>
+
+    <table border="1" *ngIf="arrUser">
+        <!-- ADD HEADERS -->
+        <tr>
+            <th>ID</th>
+                <th>Name of User</th>
+                   
+        </tr>
+
+        <!-- BIND ARRAY TO TABLE -->
+        <tr *ngFor="let user of arrUser">
+            <td>{{user.ID}}</td>
+                <td>{{user.Name}}</td>
+                    
+        </tr>
+    </table>
+</div>

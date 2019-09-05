@@ -1,0 +1,18 @@
+<P>HI</P>
+<div style="text-align:left;width:500px;">
+    <h1>
+        {{ title }}
+    </h1>
+    <table *ngIf="arrLogin">
+        <!-- ADD HEADERS -->
+        <tr>
+                <th>Id</th>
+                    <th>Name</th>
+        </tr>
+        <!-- BIND ARRAY TO TABLE -->
+        <tr *ngFor="let login of arrLogin">
+            <td>{{login.ID}}</td>
+                <td>{{login.Name}}</td>   
+        </tr>
+    </table>
+</div>

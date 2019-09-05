@@ -1,0 +1,17 @@
+<div style="text-align:left;width:500px;">
+    <h1>
+        {{ title }}!
+    </h1>
+    <table *ngIf="arrHome">
+       
+        <tr>
+                <th>Id</th>
+                    <th>Name</th>
+        </tr>
+        
+        <tr *ngFor="let home of arrHome">
+            <td>{{home.ID}}</td>
+                <td>{{home.Name}}</td>   
+        </tr>
+    </table>
+</div>
